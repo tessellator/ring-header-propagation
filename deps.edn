@@ -1,0 +1,11 @@
+{:paths ["src"]
+
+ :deps
+ {tessellator/ring-client {:mvn/version "0.1.0"}}
+
+ :aliases
+ {:test
+  {:extra-deps {clj-http-fake       {:mvn/version "1.0.3"}
+                lambdaisland/kaocha {:mvn/version "0.0-554"}
+                org.clojure/clojure {:mvn/version "1.9.0"}
+                ring/ring-mock      {:mvn/version "0.4.0"}}}}}
