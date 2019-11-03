@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tessellator</groupId>
+  <artifactId>ring-header-propagation</artifactId>
+  <version>0.1.0</version>
+  <name>ring-header-propagation</name>
+  <description>Ring middleware to propagate headers through calls made by clj-http</description>
+  <licenses>
+    <license>
+      <name>Eclipse Public License 2.0</name>
+      <url>https://www.eclipse.org/legal/epl-v20.html</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:git://github.com/tessellator/ring-header-propagation.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/tessellator/ring-header-propagation.git</developerConnection>
+    <tag>05643428d6c528cb6ab97c7c88b95f220a4b9cf6</tag>
+    <url>https://github.com/tessellator/ring-header-propagation</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>tessellator</groupId>
+      <artifactId>ring-client</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>src</directory>
+      </resource>
+    </resources>
+  </build>
+  <repositories>
+    <repository>
+      <id>clojars</id>
+      <url>https://repo.clojars.org/</url>
+    </repository>
+  </repositories>
+  <distributionManagement>
+    <repository>
+      <id>clojars</id>
+      <name>Clojars repository</name>
+      <url>https://clojars.org/repo</url>
+    </repository>
+  </distributionManagement>
+</project>
