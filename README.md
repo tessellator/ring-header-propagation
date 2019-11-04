@@ -1,5 +1,7 @@
 # ring-header-propagation
 
+[![Clojars Project](https://img.shields.io/clojars/v/tessellator/ring-header-propagation.svg)](https://clojars.org/tessellator/ring-header-propagation)
+
 Propagate headers received through calls using
 [clj-http](https://github.com/dakrone/clj-http).
 
